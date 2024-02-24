@@ -1,9 +1,65 @@
-* {
-    margin: 0;
-}
-
 body {
-    /* background-color: #272a2f; */
-    background-color: #1c2023;
+    background-color: #141414;
+    color: white;
 }
 
+main {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 250px;
+    gap: 30px;
+}
+
+.box {
+    border: 1px solid #252525;
+    border-radius: 15px;
+    /* background: #272a2f; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* I'm Darius Container */
+.grid-container > div:nth-child(1) {
+    grid-column: span 4;
+    grid-row: span 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 20%;
+    /* align-items: center; */
+}
+
+/* LEFT SIDE */
+.left-side {
+    line-height: 500%;
+}
+
+.left-side h3 {
+    padding-top: 5%;
+    padding-left: 2%;
+    color: #919191;
+}
+
+.left-side h1 {
+    letter-spacing: 10px;
+    font-size: 200px;
+}
+
+.left-side p {
+    color: #919191;
+    font-size: 20px;
+    padding-left: 2%;
+}
+
+/* RIGHT SIDE */
+.right-side {
+    color: #919191;
+    padding-top: 13%;
+}
+
+.profile {
+    grid-column: 2 / span 3;
+    grid-row: span 2;
+}
