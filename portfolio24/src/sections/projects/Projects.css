@@ -1,0 +1,26 @@
+.Projects {
+    /* height: 100vh; */
+    background-color: #1c2023;
+}
+
+.ProjectCanvas {
+    height: 100vh;
+    background-color: #1c2023;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.ProjectFadeIn {
+    /* margin-top: 20%;
+    margin-bottom: 20%; */
+}
+
+h5,
+h1,
+p {
+    color: white;
+}

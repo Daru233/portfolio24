@@ -1,0 +1,27 @@
+.IconsFixed {
+    z-index: 999;
+    position: fixed;
+    padding-top: 70vh;
+    /* padding-right: 1vw; */
+    /* padding-bottom: 30vw; */
+}
+
+.icon-Ul {
+    border: none;
+    background: none;
+    list-style-type: none;
+}
+
+.icon-li {
+    padding: 5%;
+    padding-left: 3vw;
+    width: 1vw;
+    border: none;
+    background: none;
+    transition-duration: 0.4s;
+}
+
+.icon-li:hover {
+    font-size: 1.55em;
+    /* background-color: white; */
+}

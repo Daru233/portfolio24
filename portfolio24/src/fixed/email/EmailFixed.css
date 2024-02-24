@@ -1,0 +1,8 @@
+.EmailFixed {
+    z-index: -1;
+    position: fixed;
+    writing-mode: vertical-rl;
+    padding-top: 70vh;
+    padding-left: 90vw;
+    /* padding-bottom: 30vw; */
+}

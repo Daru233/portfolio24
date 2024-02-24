@@ -1,0 +1,27 @@
+.NavBar {
+    z-index: 999;
+    position: fixed;
+    padding-left: 75vw;
+    float: right;
+}
+
+.navBar-button {
+    display: inline;
+}
+
+.navButton {
+    transition-duration: 0.4s;
+    font-size: 1em;
+    background-color: transparent;
+    color: white;
+    border: none;
+    background: none;
+    margin-top: 4vh;
+    padding-left: 2vh;
+}
+
+.navButton:hover {
+    /* background-color: #fee75c; */
+    text-decoration: underline #fee75c;
+    /* box-shadow: 0vh 1vh #fee75c; */
+}
