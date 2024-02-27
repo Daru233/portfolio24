@@ -1,65 +1,126 @@
 body {
     background-color: #141414;
-    color: white;
+    /* background-color: #dad6ca; */
+    color: #dad6ca;
 }
 
 main {
-    max-width: 1200px;
+    /* max-width: 1200px;
     margin: 60px auto;
-    padding: 20px;
+    padding: 20px; */
 
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 250px;
-    gap: 30px;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+    grid-auto-rows: 100px;
+    gap: 20px;
 }
 
 .box {
-    border: 1px solid #252525;
-    border-radius: 15px;
-    /* background: #272a2f; */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+    border: 1px solid #333333;
+    border-radius: 25px;
+    /* background: #161616; */
+    /* background: #252525; */
+    background: #f1efe9;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.4); */
+    /* background-image: linear-gradient(#202020, 10%, #141414); */
 }
 
-/* I'm Darius Container */
+/* Splash Grid Container */
 .grid-container > div:nth-child(1) {
-    grid-column: span 4;
-    grid-row: span 3;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-top: 20%;
+
     /* align-items: center; */
 }
 
-/* LEFT SIDE */
-.left-side {
-    line-height: 500%;
-}
+.section-title {
+    grid-column: span 12;
+    grid-row: span 1;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 
-.left-side h3 {
-    padding-top: 5%;
-    padding-left: 2%;
-    color: #919191;
-}
-
-.left-side h1 {
-    letter-spacing: 10px;
-    font-size: 200px;
-}
-
-.left-side p {
-    color: #919191;
+    /* font-family: "Dancing Script", cursive; */
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: 20px;
-    padding-left: 2%;
+    border-radius: 5px;
 }
 
-/* RIGHT SIDE */
-.right-side {
-    color: #919191;
-    padding-top: 13%;
+.current-work {
+    grid-column: 1 / 8;
+    grid-row: span 3;
+    /* background: #2f4573; */
+    /* background: hsl(221, 42%, 45%); */
+    /* border-color: #2f4573; */
+    /* background-image: linear-gradient(#141414, 30%, #2f4573); */
+    /* background-image: linear-gradient(#2f4573, 20%, #141414); */
+    /* background: hsl(221, 42%, 32%); */
+    /* background: #2f4573; */
+    /* background: #2f4573; */
 }
 
-.profile {
-    grid-column: 2 / span 3;
+.internship {
+    grid-column: 10 / 13;
     grid-row: span 2;
 }
+
+.core-team {
+    grid-column: 8 / 13;
+    grid-row: span 3;
+}
+
+.data-team {
+    grid-column: 1 / 10;
+    grid-row: span 2;
+}
+
+.randofy {
+    grid-column: 5 / 13;
+    grid-row: span 2;
+}
+
+.randofy-img-1 {
+    grid-column: 1 / 5;
+    grid-row: span 2;
+}
+
+.gymterest-cloud {
+    grid-column: 1 / 9;
+    grid-row: span 2;
+}
+
+.gymterest-cloud-img-1 {
+    grid-column: 9 / 13;
+    grid-row: span 2;
+}
+
+.discord-bots {
+    grid-column: 7 / 13;
+    grid-row: span 2;
+}
+
+.gymterest {
+    grid-column: 1 / 7;
+    grid-row: span 2;
+}
+
+.gymterest-img-1 {
+    grid-column: 7 / 13;
+    grid-row: span 2;
+}
+
+/* .social {
+    padding-top: 25%;
+    text-align: center;
+    grid-column: 1 / 2;
+}
+
+.logo {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.email {
+    grid-column: 9 / 13;
+} */

@@ -2,18 +2,23 @@
     z-index: 999;
     position: fixed;
     padding-left: 75vw;
+    min-width: 100%;
     float: right;
+    /* background: black; */    
 }
 
 .navBar-button {
     display: inline;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
 }
 
 .navButton {
     transition-duration: 0.4s;
     font-size: 1em;
-    background-color: transparent;
-    color: white;
+
+    color: #dad6ca;
     border: none;
     background: none;
     margin-top: 4vh;
@@ -22,6 +27,6 @@
 
 .navButton:hover {
     /* background-color: #fee75c; */
-    text-decoration: underline #fee75c;
+    text-decoration: underline #ff611d;
     /* box-shadow: 0vh 1vh #fee75c; */
 }

@@ -1,6 +1,6 @@
 import "./NavBar.css";
 
-function NavBar({ careerRef, splashRef, projectsRef }) {
+function NavBar({ careerRef, splashRef }) {
     return (
         <div className="NavBar">
             <ul>
@@ -28,7 +28,7 @@ function NavBar({ careerRef, splashRef, projectsRef }) {
                         Career
                     </button>
                 </li>
-                <li className="navBar-button">
+                {/* <li className="navBar-button">
                     <button
                         className="navButton"
                         onClick={() => {
@@ -39,7 +39,7 @@ function NavBar({ careerRef, splashRef, projectsRef }) {
                     >
                         Projects
                     </button>
-                </li>
+                </li> */}
             </ul>
         </div>
     );
