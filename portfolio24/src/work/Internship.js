@@ -1,10 +1,11 @@
 import React from "react";
-import "./CurrentWork.css";
+import "./Work.css";
 
 export default function Internship() {
     return (
-        <div className="career-container internship">
+        <div>
             <h2>Internship @CME</h2>
+            <p>CICD, Agile, PR</p>
         </div>
     );
 }

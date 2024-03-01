@@ -56,14 +56,15 @@ export default function Splash() {
                 >
                     DARIUS
                 </motion.h1>
-                <motion.h2
+
+                <motion.p
                     variants={improvementVar}
                     initial="hidden"
                     animate="visible"
                     transition={{ duration: 2, delay: 2.2 }}
                 >
                     Striving for improvement
-                </motion.h2>
+                </motion.p>
             </div>
             <div className="right-side">
                 <motion.h2
@@ -71,6 +72,7 @@ export default function Splash() {
                     initial="hidden"
                     animate="visible"
                     transition={{ duration: 0.2, delay: 0.9 }}
+                    className="right-side-h2-shadows"
                 >
                     DESIGN
                 </motion.h2>
@@ -79,6 +81,7 @@ export default function Splash() {
                     initial="hidden"
                     animate="visible"
                     transition={{ duration: 0.2, delay: 1.2 }}
+                    className="right-side-h2-shadows"
                 >
                     DEVELOP
                 </motion.h2>
@@ -87,6 +90,7 @@ export default function Splash() {
                     initial="hidden"
                     animate="visible"
                     transition={{ duration: 0.2, delay: 1.5 }}
+                    className="right-side-h2-shadows"
                 >
                     DEPLOY
                 </motion.h2>
@@ -95,6 +99,7 @@ export default function Splash() {
                     initial="hidden"
                     animate="visible"
                     transition={{ duration: 0.2, delay: 1.8 }}
+                    className="solutions-text"
                 >
                     SOLUTIONS
                 </motion.h2>

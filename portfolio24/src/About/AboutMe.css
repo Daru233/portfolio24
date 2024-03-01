@@ -1,0 +1,44 @@
+.about-me-img {
+    background: #152a15;
+    grid-column: 6 / 11;
+    grid-row: span 4;
+}
+
+.education {
+    grid-column: 3 / 6;
+    grid-row: span 2;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 25px;
+
+    filter: grayscale(65%);
+    transition: 700ms;
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
+
+.linkedIn {
+    background: #151f2a;
+    grid-column: 3 / 4;
+    grid-row: span 1;
+}
+
+.github {
+    grid-column: 4 / 5;
+    grid-row: span 1;
+}
+
+.spotify {
+    background: #152a15;
+}
+
+.socials {
+    font-size: 3em;
+}

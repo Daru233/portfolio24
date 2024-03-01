@@ -1,0 +1,39 @@
+.box {
+    border: 1px solid #dad6ca;
+    border-radius: 25px;
+    /* background: #dad6ca; */
+    background: #111111;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.4); */
+    /* background-image: linear-gradient(#202020, 10%, #141414); */
+}
+
+.internship {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.credits-team {
+    background: #151f2a;
+    grid-column: 3 / 8;
+    grid-row: span 2;
+}
+.credits-team h1 {
+    font-size: 50px;
+}
+
+.core-team {
+    grid-column: 8 / 11;
+    grid-row: span 2;
+}
+
+.data-team {
+    grid-column: 3 / 9;
+    grid-row: span 2;
+}
+
+.internship {
+    grid-column: 9 / 11;
+    grid-row: span 2;
+}

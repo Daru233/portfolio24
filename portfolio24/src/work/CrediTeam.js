@@ -8,14 +8,13 @@ import {
     SiApachekafka,
 } from "react-icons/si";
 import { BiLogoJava, BiLogoSpringBoot } from "react-icons/bi";
-import "./CurrentWork.css";
+import "./Work.css";
 
-export default function CurrentWork() {
+export default function CreditTeam() {
     return (
-        <div className="career-container credits-team">
+        <div className="bento-content credit-team">
             <p> Worked closely with </p>
             <h1>TRADING ENGINE</h1>
-
             <p> Java, Spring, Kafka, Protobuf</p>
         </div>
     );

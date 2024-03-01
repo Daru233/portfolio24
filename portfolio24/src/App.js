@@ -4,12 +4,10 @@ import { motion, useInView, useAnimation, delay } from "framer-motion";
 
 import NavBar from "./NavBar/NavBar.js";
 import Splash from "./splash/Splash.js";
-import CurrentWork from "./work/CurrentWork.js";
+import Work from "./work/Work.js";
 import "./App.css";
-import Internship from "./work/Internship.js";
-import DataTeam from "./work/DataTeam.js";
-import CoreTeam from "./work/CoreTeam.js";
-import Randofy from "./projects/Randofy.js";
+import Projects from "./projects/Projects.js";
+import AboutMe from "./About/AboutMe.js";
 
 function App() {
     const splashRef = useRef();
@@ -65,8 +63,12 @@ function App() {
             <NavBar careerRef={careerRef} splashRef={splashRef} />
             <main className="grid-container">
                 <Splash />
+                <h1 className="section-title"></h1>
+                <Work />
+                <Projects />
+                <AboutMe />
 
-                <div className="work-title-container section-title">
+                {/* <div className="work-title-container section-title">
                     <motion.h1
                         variants={workTitleVar}
                         initial="hidden"
@@ -75,8 +77,9 @@ function App() {
                     >
                         Work
                     </motion.h1>
-                </div>
+                </div> */}
 
+                {/* 
                 <motion.div
                     variants={boxShowVar}
                     initial="hidden"
@@ -139,9 +142,9 @@ function App() {
                     className="box randofy"
                 >
                     <Randofy />
-                </motion.div>
+                </motion.div> */}
 
-                <motion.div
+                {/* <motion.div
                     variants={boxShowVar}
                     initial="hidden"
                     animate={projectsAnimationControls}
@@ -183,29 +186,7 @@ function App() {
 
                 <div className="about-me-title-container section-title">
                     <h1>About Me</h1>
-                </div>
-
-                {/* socials */}
-                {/* <motion.div
-                    className="box linkedin social"
-                >
-                    <SiLinkedin className="logo" />
-                </motion.div>
-                <motion.div
-                    className="box github social"
-                >
-                    <SiGithub className="logo" />
-                </motion.div>
-                <motion.div
-                    className="box spotify social"
-                >
-                    <SiSpotify className="logo" />
-                </motion.div>
-                <motion.div
-                    className="box vsco social"
-                >
-                    <SiVsco className="logo" />
-                </motion.div> */}
+                </div> */}
             </main>
         </div>
     );
