@@ -40,6 +40,14 @@
     /* padding-left: 2%; */
 }
 
+hr {
+    padding-top: 10%;
+}
+
+.line {
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
 .hi {
     background-color: #233446;
     /* background-color: #151f2a; */

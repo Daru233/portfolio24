@@ -63,6 +63,7 @@ export default function Splash() {
                     animate="visible"
                     transition={{ duration: 2, delay: 2.2 }}
                 >
+                    <hr className="line" />
                     Striving for improvement
                 </motion.p>
             </div>
@@ -101,7 +102,7 @@ export default function Splash() {
                     transition={{ duration: 0.2, delay: 1.8 }}
                     className="solutions-text"
                 >
-                    SOLUTIONS
+                    <mark className="hi">SOLUTIONS</mark>
                 </motion.h2>
             </div>
         </div>
