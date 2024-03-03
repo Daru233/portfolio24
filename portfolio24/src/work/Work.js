@@ -19,7 +19,7 @@ export default function Work() {
         }
     }, [isCreditsTeamInView]);
 
-    const rightVar = {
+    const revealAnimation = {
         hidden: {
             opacity: 0.0,
             y: 120,
@@ -38,7 +38,7 @@ export default function Work() {
         <div className="work-grid-container">
             <h1 className="bento-title">Software Engineer @CME Group</h1>
             <motion.div
-                variants={rightVar}
+                variants={revealAnimation}
                 initial="hidden"
                 animate={creditsTeamAnimationControls}
                 transition={transitionConfig}
@@ -48,31 +48,31 @@ export default function Work() {
             </motion.div>
 
             <motion.div
-                variants={rightVar}
+                variants={revealAnimation}
                 initial="hidden"
                 animate={creditsTeamAnimationControls}
                 transition={transitionConfig}
-                ref={creditTeamRef}
+                // ref={creditTeamRef}
                 className="box core-team bento-box-item">
                 <CoreTeam />
             </motion.div>
 
             <motion.div
-                variants={rightVar}
+                variants={revealAnimation}
                 initial="hidden"
                 animate={creditsTeamAnimationControls}
                 transition={transitionConfig}
-                ref={creditTeamRef}
+                // ref={creditTeamRef}
                 className="box data-team bento-box-item">
                 <DataTeam />
             </motion.div>
 
             <motion.div
-                variants={rightVar}
+                variants={revealAnimation}
                 initial="hidden"
                 animate={creditsTeamAnimationControls}
                 transition={transitionConfig}
-                ref={creditTeamRef}
+                // ref={creditTeamRef}
                 className="box internship bento-box-item">
                 <Internship />
             </motion.div>

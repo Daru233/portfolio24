@@ -78,7 +78,7 @@ main {
 
 .about-grid-container {
     grid-column: 1 / 13;
-    grid-row: span 10;
+    grid-row: span 9;
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);

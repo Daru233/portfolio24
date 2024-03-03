@@ -65,6 +65,14 @@ img:hover {
     transition: 200ms;
 }
 
+.quote {
+    grid-column: 3 / 11;
+    grid-row: span 3;
+    background: 111111;
+    color: #dad6ca;
+    transition: 200ms;
+}
+
 .song:hover {
     font-size: 1.2em;
     cursor: pointer;
