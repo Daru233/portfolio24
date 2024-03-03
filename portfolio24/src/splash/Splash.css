@@ -1,6 +1,6 @@
 /* LEFT SIDE */
 
-.splash-grid-container {
+/* .splash-grid-container {
     font-family: "Roboto", sans-serif;
     grid-column: span 12;
     grid-row: span 7;
@@ -8,15 +8,21 @@
     grid-template-columns: repeat(2, 1fr);
     background-color: #dad6ca;
     color: black;
+    width: 100%;
 
-    /* color: #dad6ca; */
+
     padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
-}
+} */
+
 
 .left-side {
+    padding-top: 15vh;
+    grid-column: 1 / 10;
+    /* grid-row: span 7; */
     line-height: 900%;
+    align-items: center;
 }
 
 .left-side h2 {
@@ -28,7 +34,7 @@
 
 .left-side h1 {
     letter-spacing: 35px;
-    font-size: 300px;
+    font-size: 233px;
     font-family: "Roboto", sans-serif;
     font-weight: 800;
     /* margin-right: 25%; */
@@ -56,8 +62,13 @@ hr {
 
 /* RIGHT SIDE */
 .right-side {
+    padding-top: 25vh;
+    grid-column: 10/ 13;
+    align-items: center;
+    /* grid-row: span 7; */
+
     color: black;
-    padding-top: 35%;
+    /* padding-top: 35%; */
 }
 
 .right-side h2 {

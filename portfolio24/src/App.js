@@ -63,7 +63,7 @@ function App() {
             <NavBar careerRef={careerRef} splashRef={splashRef} />
             <main className="grid-container">
                 <Splash />
-                <h1 className="section-title"></h1>
+                {/* <h1 className="section-title"></h1> */}
                 <Work />
                 <Projects />
                 <AboutMe />

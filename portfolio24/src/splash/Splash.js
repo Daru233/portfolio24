@@ -38,6 +38,7 @@ export default function Splash() {
 
     return (
         <div className="splash-grid-container">
+
             <div className="left-side">
                 <motion.p
                     variants={hiVar}
