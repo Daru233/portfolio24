@@ -18,3 +18,8 @@
     grid-column: 9 / 11;
     grid-row: span 2;
 }
+
+.current-project {
+    grid-column: 3/11;
+    grid-row: span 2;
+}

@@ -69,7 +69,6 @@ hr {
     color: black;
 }
 
-
 .right-side h2 {
     font-size: 50px;
     font-weight: 800;
@@ -91,27 +90,41 @@ hr {
 
 
 @media (max-width: 93em) {
-    .left-side {
+    /* .left-side {
         line-height: 700%;
-    }
+    } */
 
     .right-side {
-        padding-top: 0vw;
+        padding-left: 10vw;
+    }
+}
 
+@media (max-width: 85em) {
 
+    .right-side {
+        padding-top: 0;
+        padding-left: 10vw;
+        /* background-color: red; */
+    }
+}
 
-        line-height: 900%;
-        align-items: center;
+@media (max-width: 83em) {
+
+    .right-side {
+        padding: 0;
+        /* background-color: red; */
         display: flex;
         flex-direction: row;
+        line-height: 500%;
+        gap: 25px
+    }
 
-        gap: 20px;
-
+    .left-side {
+        line-height: 750%;
+        padding: 0;
     }
 
     hr {
         opacity: 0;
     }
-
-    .left-side p {}
 }
