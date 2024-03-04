@@ -46,7 +46,7 @@ export default function Splash() {
                     animate="visible"
                     transition={{ duration: 0.3, delay: 0.1 }}
                 >
-                    <mark className="hi">Hi, I'm</mark>
+                    <mark className="hi">Hi, I'm Michael</mark>
                 </motion.p>
 
                 <motion.h1
