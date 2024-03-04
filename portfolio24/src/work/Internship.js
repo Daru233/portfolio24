@@ -5,7 +5,8 @@ export default function Internship() {
     return (
         <div>
             <h2>Internship @CME</h2>
-            <p>CICD, Agile, PR</p>
+            <p>2020 - 2021</p>
+            <p>Java, Agile, CI/CD</p>
         </div>
     );
 }

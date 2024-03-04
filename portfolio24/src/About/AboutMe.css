@@ -66,8 +66,10 @@ img:hover {
 }
 
 .quote {
+    padding-left: 8vh;
+    padding-right: 8vh;
     grid-column: 3 / 11;
-    grid-row: span 3;
+    grid-row: span 1;
     background: 111111;
     color: #dad6ca;
     transition: 200ms;

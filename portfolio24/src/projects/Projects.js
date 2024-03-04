@@ -44,6 +44,8 @@ export default function Projects() {
                 <div className="bento-content">
                     <p>Websites built with</p>
                     <h1>React</h1>
+                    <p>LIke this one</p>
+                    <p>This site was built using React and CSS Grid</p>
                 </div>
             </motion.div>
 
@@ -56,7 +58,9 @@ export default function Projects() {
                 <div className="bento-content">
                     <p>fullstack mobile web app</p>
                     <h1>Randofy</h1>
-                    <p>powered by spotify</p>
+                    <p>powered by Spotify API</p>
+                    <p>Built using React Native and Expo</p>
+                    <p>Backend handled with Flask in Python</p>
                 </div>
             </motion.div>
 
@@ -69,7 +73,10 @@ export default function Projects() {
                 <div className="bento-content">
                     <p>Azure cloud powered clone of instagram</p>
                     <h1>Gymterest</h1>
-                    <p>asdfssdfsfsfsdffadf</p>
+                    <p>Front end built with React</p>
+                    <p>Backend was handled by Azure CLoud</p>
+                    <p>CosmosDB for users, Block Strorage for images</p>
+                    <p>Used Identity Provider</p>
                 </div>
             </motion.div>
 
@@ -82,6 +89,7 @@ export default function Projects() {
                 <div className="bento-content">
                     <h1>Discord Bots</h1>
                     <p>for friends</p>
+                    <p>Built using Discord Python API</p>
                 </div>
             </motion.div>
         </div>
